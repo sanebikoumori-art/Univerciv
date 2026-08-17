@@ -1,1 +1,107 @@
-
+[
+	{
+		"columnNumber": 0,
+		"era": "Dark age",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Big Bang",
+				"row": 6,
+				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+				"uniques": ["Starting tech","Triggers a [Big Bang] event","Play [tankshot] sound"]
+			}
+		]
+	},
+    {
+		"columnNumber": 1,
+		"era": "Dark age",
+		"techCost": 30,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+            {
+				"name": "The Strong",
+				"row": 3,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Big Bang"]
+			},
+			{
+				"name": "The Gravity",
+				"row": 6,
+				"quote": "",
+				"uniques": ["Triggers a [Gravity] event"],
+                "prerequisites": ["Big Bang"]
+			},
+            {
+				"name": "The Weak",
+				"row": 8,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Big Bang"]
+			},
+		]
+	},
+    {
+		"columnNumber": 2,
+		"era": "Dark age",
+		"techCost": 60,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+            {
+				"name": "The Higgs",
+				"row": 2,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["The Gravity","The Strong"]
+			},
+			{
+				"name": "The Light",
+				"row": 6,
+				"quote": "",
+				"uniques": ["Triggers a [Light] event"],
+                "prerequisites": ["The Gravity"]
+			},
+            {
+				"name": "The Electromagnetics",
+				"row": 9,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["The Gravity","The Weak"]
+			},
+		]
+	},
+    {
+		"columnNumber": 3,
+		"era": "Matter age",
+		"techCost": 60,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+            {
+				"name": "The Higgs",
+				"row": 2,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["The Gravity","The Strong"]
+			},
+			{
+				"name": "Atom",
+				"row": 6,
+				"quote": "",
+				"uniques": ["Triggers a [Atom] event"],
+                "prerequisites": ["The Electromagnetics","The Higgs","The Light"]
+			},
+            {
+				"name": "The Electromagnetics",
+				"row": 9,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["The Gravity","The Weak"]
+			},
+		]
+	}
+]
