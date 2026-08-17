@@ -1,7 +1,7 @@
 [
 	{
 		"columnNumber": 0,
-		"era": "Dark age",
+		"era": "Planck age",
 		"techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 185,
@@ -16,7 +16,7 @@
 	},
     {
 		"columnNumber": 1,
-		"era": "Dark age",
+		"era": "Planck age",
 		"techCost": 30,
 		"buildingCost": 40,
 		"wonderCost": 185,
@@ -46,7 +46,7 @@
 	},
     {
 		"columnNumber": 2,
-		"era": "Dark age",
+		"era": "Planck age",
 		"techCost": 60,
 		"buildingCost": 40,
 		"wonderCost": 185,
@@ -76,17 +76,17 @@
 	},
     {
 		"columnNumber": 3,
-		"era": "Matter age",
-		"techCost": 60,
+		"era": "Dark age",
+		"techCost": 100,
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
             {
-				"name": "The Higgs",
+				"name": "Nuclear Fusion",
 				"row": 2,
 				"quote": "",
 				"uniques": [],
-                "prerequisites": ["The Gravity","The Strong"]
+                "prerequisites": ["The Higgs","The Light"]
 			},
 			{
 				"name": "Atom",
@@ -96,11 +96,145 @@
                 "prerequisites": ["The Electromagnetics","The Higgs","The Light"]
 			},
             {
-				"name": "The Electromagnetics",
+				"name": "CP Violation",
 				"row": 9,
 				"quote": "",
 				"uniques": [],
-                "prerequisites": ["The Gravity","The Weak"]
+                "prerequisites": ["The Electromagnetics"]
+			},
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Dark age",
+		"techCost": 160,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+            {
+				"name": "Periodic Table",
+				"row": 2,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Nuclear Fusion","Atom"]
+			},
+			{
+				"name": "Stars",
+				"row": 6,
+				"quote": "",
+				"uniques": ["Triggers a [Star] event"],
+                "prerequisites": ["Atom","CP Violation","Nuclear Fusion"]
+			},
+            {
+				"name": "Molecule",
+				"row": 9,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["CP Violation","Atom"]
+			},
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Hadean",
+		"techCost": 300,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+            {
+				"name": "Galaxy",
+				"row": 2,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Stars"]
+			},
+			{
+				"name": "Planets",
+				"row": 6,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Stars","Periodic Table","Molecule"]
+			},
+            {
+				"name": "Asteroid Belt",
+				"row": 9,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Stars","Periodic Table","Molecule"]
+			},
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Hadean",
+		"techCost": 520,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+            {
+				"name": "Black Hole",
+				"row": 2,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Galaxy"]
+			},
+			{
+				"name": "Plume",
+				"row": 7,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Planets"]
+			},
+			{
+				"name": "Primordial Soup",
+				"row": 6,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Planets","Asteroid Belt"]
+			},
+            {
+				"name": "Moon",
+				"row": 9,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Asteroid Belt","Planets"]
+			},
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Archean",
+		"techCost": 640,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+            {
+				"name": "Black Hole",
+				"row": 2,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Galaxy"]
+			},
+			{
+				"name": "Plume",
+				"row": 7,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Planets"]
+			},
+			{
+				"name": "Primordial Soup",
+				"row": 6,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Planets","Asteroid Belt"]
+			},
+            {
+				"name": "Moon",
+				"row": 9,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Asteroid Belt","Planets"]
 			},
 		]
 	}
