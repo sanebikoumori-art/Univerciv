@@ -345,7 +345,7 @@
 				"row": 4,
 				"quote": "Dedicate your heart!",
 				"uniques": [],
-                "prerequisites": ["Eyes"]
+                "prerequisites": ["Eyes","Bilateria"]
 			},
 			{
 				"name": "Coral Reefs",
@@ -360,6 +360,57 @@
 				"quote": "",
 				"uniques": [],
                 "prerequisites": ["Bilateria","Notochord","Eyes","Archaeplastids"]
+			},
+			{
+				"name": "Vascular Plant",
+				"row": 8,
+				"quote": "A little, frail sprout that strayed from the rivers will eventually change the entire world...",
+				"uniques": [],
+                "prerequisites": ["Archaeplastids"]
+			}
+		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "Phanerozoic",
+		"techCost": 1000,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+            {
+				"name": "Neocortex",
+				"row": 1,
+				"quote": "We think with nature. We learn with parents. We play with pals. Then we rejoice.",
+				"uniques": [],
+                "prerequisites": ["Memories","Hearts"]
+			},
+			{
+				"name": "Hearts",
+				"row": 3,
+				"quote": "Dedicate your heart!",
+				"uniques": [],
+                "prerequisites": ["Eyes"]
+			},
+			{
+				"name": "Lung",
+				"row": 4,
+				"quote": "Dedicate your heart!",
+				"uniques": [],
+                "prerequisites": ["Eyes","Bilateria"]
+			},
+			{
+				"name": "Coral Reefs",
+				"row": 5,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Cnidaria"]
+			},
+			{
+				"name": "Mammal",
+				"row": 6,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Vertebrate","Notochord","Eyes","Archaeplastids"]
 			},
 			{
 				"name": "Vascular Plant",
