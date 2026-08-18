@@ -19,7 +19,7 @@
 		"uniques": ["[+2] to Fertility for Map Generation",
             "Considered [Desirable] when determining start locations <on water maps>",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.",
-            "Coastal Water","Becomes [Ocean] when adjacent to [Land]"]
+            "Coastal Water","Becomes [Ocean] when adjacent to [Ocean]"]
 	},
 	{
 		"name": "Grassland",
@@ -35,7 +35,7 @@
 		"name": "Grassland Core",
 		"type": "TerrainFeature",
 		"movementCost": 1,
-		"occursOn": ["Land","Water"],
+		"occursOn": ["Ocean"],
         "RGB": [0, 163, 0],
         "uniques": [
 			"Vegetation"
