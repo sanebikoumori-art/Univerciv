@@ -285,35 +285,35 @@
             {
 				"name": "Eyes",
 				"row": 3,
-				"quote": "",
+				"quote": "I can see that... I see.",
 				"uniques": [],
                 "prerequisites": ["Photoreceptors"]
 			},
 			{
 				"name": "Notochord",
 				"row": 1,
-				"quote": "",
+				"quote": "Hmm... I get a shiver down my chord.",
 				"uniques": [],
                 "prerequisites": ["Photoreceptors"]
 			},
 			{
 				"name": "Cnidaria",
 				"row": 5,
-				"quote": "",
+				"quote": "Why they came to our town? What they are came for? Even no one knows when they came, where they come from.",
 				"uniques": [],
                 "prerequisites": ["Eukaryote","Tidal Wave"]
 			},
 			{
 				"name": "Bilateria",
 				"row": 6,
-				"quote": "",
+				"quote": "My left hand? Oh it is on left side of my right hand to me. Thanks, I remember.",
 				"uniques": [],
                 "prerequisites": ["Eukaryote","Sexual Reproduction","Photoreceptors"]
 			},
 			{
 				"name": "Archaeplastids",
 				"row": 8,
-				"quote": "",
+				"quote": "Paramecium are algae, Daphnia are crustaceans, and amoebas are amoebas. Who cares about that?",
 				"uniques": [],
                 "prerequisites": ["Eukaryote"]
 			}
@@ -343,21 +343,21 @@
 			{
 				"name": "Lung",
 				"row": 4,
-				"quote": "Dedicate your heart!",
+				"quote": "Be careful not to smoke too much. You'll end up only being able to breathe through gills.",
 				"uniques": [],
                 "prerequisites": ["Eyes","Bilateria"]
 			},
 			{
 				"name": "Coral Reefs",
 				"row": 5,
-				"quote": "",
+				"quote": "Corals include those that branch into eight and those that branch into six.",
 				"uniques": [],
                 "prerequisites": ["Cnidaria"]
 			},
 			{
 				"name": "Vertebrate",
 				"row": 6,
-				"quote": "",
+				"quote": "Are you already unlocked spine blade swordsman?",
 				"uniques": [],
                 "prerequisites": ["Bilateria","Notochord","Eyes","Archaeplastids"]
 			},
@@ -385,39 +385,90 @@
                 "prerequisites": ["Memories","Hearts"]
 			},
 			{
-				"name": "Hearts",
+				"name": "Hairs",
 				"row": 3,
-				"quote": "Dedicate your heart!",
+				"quote": "AGE OF FUURY BEGAN",
 				"uniques": [],
-                "prerequisites": ["Eyes"]
+                "prerequisites": ["Hearts"]
 			},
 			{
-				"name": "Lung",
+				"name": "Gland Systems",
 				"row": 4,
-				"quote": "Dedicate your heart!",
+				"quote": "A meal tastes great after working up a sweat.",
 				"uniques": [],
-                "prerequisites": ["Eyes","Bilateria"]
+                "prerequisites": ["Lung","Hearts"]
 			},
 			{
-				"name": "Coral Reefs",
+				"name": "Brown Algaes",
 				"row": 5,
-				"quote": "",
+				"quote": "Kelp forests supply vast amounts of nutrients to ocean. Also, it work as school for child fishes.",
 				"uniques": [],
-                "prerequisites": ["Cnidaria"]
+                "prerequisites": ["Coral Reefs"]
 			},
 			{
-				"name": "Mammal",
+				"name": "Legs",
 				"row": 6,
-				"quote": "",
+				"quote": "Step on the ground, jump jump jump",
 				"uniques": [],
-                "prerequisites": ["Vertebrate","Notochord","Eyes","Archaeplastids"]
+                "prerequisites": ["Vertebrate","Lung","Hearts","Vascular Plant"]
 			},
 			{
-				"name": "Vascular Plant",
+				"name": "Angiosperms",
 				"row": 8,
-				"quote": "A little, frail sprout that strayed from the rivers will eventually change the entire world...",
+				"quote": "The fragile petals open wide,Then fall upon the quiet ground.The green and growing things subside,And silence is their final sound.",
 				"uniques": [],
-                "prerequisites": ["Archaeplastids"]
+                "prerequisites": ["Vascular Plant"]
+			}
+		]
+	},
+	{
+		"columnNumber": 11,
+		"era": "Phanerozoic",
+		"techCost": 1000,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+            {
+				"name": "Neocerebellum",
+				"row": 1,
+				"quote": ".",
+				"uniques": [],
+                "prerequisites": ["Memories","Hearts"]
+			},
+			{
+				"name": "Hairs",
+				"row": 3,
+				"quote": "AGE OF FUURY BEGAN",
+				"uniques": [],
+                "prerequisites": ["Hearts"]
+			},
+			{
+				"name": "Gland Systems",
+				"row": 4,
+				"quote": "A meal tastes great after working up a sweat.",
+				"uniques": [],
+                "prerequisites": ["Lung","Hearts"]
+			},
+			{
+				"name": "Brown Algaes",
+				"row": 5,
+				"quote": "Kelp forests supply vast amounts of nutrients to ocean. Also, it work as school for child fishes.",
+				"uniques": [],
+                "prerequisites": ["Coral Reefs"]
+			},
+			{
+				"name": "Legs",
+				"row": 6,
+				"quote": "Step on the ground, jump jump jump",
+				"uniques": [],
+                "prerequisites": ["Vertebrate","Lung","Hearts","Vascular Plant"]
+			},
+			{
+				"name": "Grassland",
+				"row": 8,
+				"quote": "Time is come. Fill the entire ground with greens!",
+				"uniques": [],
+                "prerequisites": ["Angiosperms"]
 			}
 		]
 	}
