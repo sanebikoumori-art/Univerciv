@@ -9,7 +9,7 @@
 			{
 				"name": "Big Bang",
 				"row": 6,
-				"quote": "In the beginning God created the space and the time.",
+				"quote": "In the beginning God created the Calabi-Yau strings, and from their vibrations came the Space and the Time.",
 				"uniques": ["Starting tech","Triggers a [Big Bang] event","Play [tankshot] sound"]
 			}
 		]
@@ -24,21 +24,21 @@
             {
 				"name": "The Strong",
 				"row": 3,
-				"quote": "And God divided the Strong from the others",
+				"quote": "And God divided the Strong from the gravity",
 				"uniques": [],
                 "prerequisites": ["Big Bang"]
 			},
 			{
 				"name": "The Gravity",
 				"row": 6,
-				"quote": "And God divided the Gravity from the space",
+				"quote": "Now the space was unformed and void. The vibrations were upon the face of the manifold; and the energy of God hovered over the face of the spacetime.",
 				"uniques": ["Triggers a [Gravity] event"],
                 "prerequisites": ["Big Bang"]
 			},
             {
 				"name": "The Weak",
 				"row": 8,
-				"quote": "And God divided the Weak from the others",
+				"quote": "And God divided the Weak from the strong",
 				"uniques": [],
                 "prerequisites": ["Big Bang"]
 			},
