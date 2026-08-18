@@ -189,7 +189,7 @@
 				"name": "Primordial Soup",
 				"row": 6,
 				"quote": "",
-				"uniques": [],
+				"uniques": ["Triggers a [First Life] event"],
                 "prerequisites": ["Planets","Asteroid Belt"]
 			},
             {
@@ -209,33 +209,165 @@
 		"wonderCost": 185,
 		"techs": [
             {
-				"name": "Black Hole",
-				"row": 2,
+				"name": "Protein",
+				"row": 3,
 				"quote": "",
 				"uniques": [],
-                "prerequisites": ["Galaxy"]
+                "prerequisites": ["Primordial Soup"]
 			},
 			{
-				"name": "Plume",
-				"row": 7,
+				"name": "Archaea",
+				"row": 5,
 				"quote": "",
 				"uniques": [],
-                "prerequisites": ["Planets"]
+                "prerequisites": ["Primordial Soup","Plume"]
 			},
 			{
-				"name": "Primordial Soup",
+				"name": "Bacteria",
 				"row": 6,
 				"quote": "",
 				"uniques": [],
-                "prerequisites": ["Planets","Asteroid Belt"]
+                "prerequisites": ["Primordial Soup","Plume"]
+			},
+			{
+				"name": "Virus",
+				"row": 7,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Primordial Soup","Plume"]
+			}
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Archean",
+		"techCost": 740,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+            {
+				"name": "Photoreceptors",
+				"row": 3,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Protein"]
+			},
+			{
+				"name": "Eukaryote",
+				"row": 6,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Archaea","Bacteria"]
+			},
+			{
+				"name": "Sexual Reproduction",
+				"row": 7,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Bacteria","Virus"]
 			},
             {
-				"name": "Moon",
+				"name": "Tidal Wave",
 				"row": 9,
 				"quote": "",
 				"uniques": [],
-                "prerequisites": ["Asteroid Belt","Planets"]
+                "prerequisites": ["Moon"]
+			}
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Proterozoic",
+		"techCost": 840,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+            {
+				"name": "Eyes",
+				"row": 3,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Photoreceptors"]
 			},
+			{
+				"name": "Notochord",
+				"row": 1,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Photoreceptors"]
+			},
+			{
+				"name": "Cnidaria",
+				"row": 5,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Eukaryote","Tidal Wave"]
+			},
+			{
+				"name": "Bilateria",
+				"row": 6,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Eukaryote","Sexual Reproduction","Photoreceptors"]
+			},
+			{
+				"name": "Archaeplastids",
+				"row": 8,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Eukaryote"]
+			}
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Proterozoic",
+		"techCost": 840,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+            {
+				"name": "Memories",
+				"row": 1,
+				"quote": "I'll die, but memories never die.",
+				"uniques": [],
+                "prerequisites": ["Eyes","Notochord"]
+			},
+			{
+				"name": "Hearts",
+				"row": 3,
+				"quote": "Dedicate your heart!",
+				"uniques": [],
+                "prerequisites": ["Eyes"]
+			},
+			{
+				"name": "Lung",
+				"row": 4,
+				"quote": "Dedicate your heart!",
+				"uniques": [],
+                "prerequisites": ["Eyes"]
+			},
+			{
+				"name": "Coral Reefs",
+				"row": 5,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Cnidaria"]
+			},
+			{
+				"name": "Vertebrate",
+				"row": 6,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Bilateria","Notochord","Eyes","Archaeplastids"]
+			},
+			{
+				"name": "Vascular Plant",
+				"row": 8,
+				"quote": "A little, frail sprout that strayed from the rivers will eventually change the entire world...",
+				"uniques": [],
+                "prerequisites": ["Archaeplastids"]
+			}
 		]
 	}
 ]
