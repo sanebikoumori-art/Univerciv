@@ -480,5 +480,49 @@
                 "prerequisites": ["Neocerebellum","Episodes","Abstract Insight","Sport","Thumb Opposability"]
 			}
 		]
+	},
+	{
+		"columnNumber": 13,
+		"era": "Anthropocene",
+		"techCost": 5000,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Civilization",
+				"row": 2,
+				"quote": "",
+				"uniques": [],
+                "prerequisites": ["Agriculture"]
+			},
+			{
+				"name": "Exploration",
+				"row": 4,
+				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+				"uniques": [],
+                "prerequisites": ["Agriculture"]
+			},
+			{
+				"name": "Industry",
+				"row": 6,
+				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+				"uniques": [],
+                "prerequisites": ["Agriculture"]
+			},
+			{
+				"name": "Atomic",
+				"row": 8,
+				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+				"uniques": [],
+                "prerequisites": ["Agriculture"]
+			},
+			{
+				"name": "Information",
+				"row": 10,
+				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+				"uniques": [],
+                "prerequisites": ["Agriculture"]
+			}
+		]
 	}
 ]
