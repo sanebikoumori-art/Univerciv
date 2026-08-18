@@ -6,6 +6,7 @@
 		"food": 1,
 		"gold": 1,
 		"movementCost": 1,
+		"uniques":["Becomes [Grassland] when adjacent to [Grassland Core]","Becomes [Coast] when adjacent to [Grassland]"]
 		"RGB": [43, 87, 151]
 	},
 	{
@@ -29,6 +30,16 @@
         "uniques": [
 			"Becomes [Ocean] when adjacent to [Ocean]",
 		]
+    },
+	{
+		"name": "Grassland Core",
+		"type": "Land",
+		"food": 2,
+		"movementCost": 1,
+        "RGB": [0, 163, 0],
+        "uniques": [
+			"Occurs at temperature between [-1] and [1] and humidity between [-1] and [1]"
+		]
     }
 
     // Virtual River entry, used for stats, Uniques and Civilopedia
@@ -36,7 +47,7 @@
     // * This never exists on the map, it's a placeholder to allow you to mod the actual river's stats.
     // * The name is hardcoded to apply stats and the Stats Unique when a tile has one or more edges with an actual river.
     // * No other Unique is implemented and will work - for now.
-    {
+    /*{
         "name": "River",
         "type": "TerrainFeature",
         "gold": 1,
@@ -59,5 +70,5 @@
             {"text": "Fertilizer", "link":"Technology/Fertilizer"},
             {"text": "Amphibious", "link":"Promotion/Amphibious"}
         ]
-    }
+    }*/
 ]
