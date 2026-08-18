@@ -33,9 +33,9 @@
     },
 	{
 		"name": "Grassland Core",
-		"type": "Land",
-		"food": 2,
+		"type": "TerrainFeature",
 		"movementCost": 1,
+		"occursOn": ["Land","Water"],
         "RGB": [0, 163, 0],
         "uniques": [
 			"Vegetation"
