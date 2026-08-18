@@ -484,42 +484,42 @@
 	{
 		"columnNumber": 13,
 		"era": "Anthropocene",
-		"techCost": 5000,
+		"techCost": 2000,
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
 			{
 				"name": "Civilization",
 				"row": 2,
-				"quote": "",
+				"quote": "The agriculture leads to a population explosion. Communities rooted in indigenous beliefs eventually evolve into societies, with leaders coming to represent the land. What happens when the land runs out?",
 				"uniques": [],
                 "prerequisites": ["Agriculture"]
 			},
 			{
-				"name": "Exploration",
+				"name": "Discovery",
 				"row": 4,
-				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+				"quote": "They began using mathematics to calculate the size of land. Furthermore, some curious mans are attempting to describe physical phenomena such as water pressure using maths.",
 				"uniques": [],
                 "prerequisites": ["Agriculture"]
 			},
 			{
 				"name": "Industry",
 				"row": 6,
-				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+				"quote": "They have discoveried the equations of motion, designed steam or diesel engines, harnessed immense power, and lighting the world. Now, they even produce fertilizer from the air. It even seems possible to transform copper into gold. The time has come to understand the very constituents of matter.",
 				"uniques": [],
                 "prerequisites": ["Agriculture"]
 			},
 			{
 				"name": "Atomic",
 				"row": 8,
-				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+				"quote": "They soared through the skies, stepping over corpses, and ultimately obtained the nuclear power capable of destroying themselves. Now, they require security to safeguard this power.",
 				"uniques": [],
                 "prerequisites": ["Agriculture"]
 			},
 			{
 				"name": "Information",
 				"row": 10,
-				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+				"quote": "What began with punch cards now possesses computational and memory capabilities surpassing those of any genius on the planet. With this, calculating the trajectory of a space shuttle is a piece of cake.",
 				"uniques": [],
                 "prerequisites": ["Agriculture"]
 			}
