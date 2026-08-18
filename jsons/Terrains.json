@@ -6,7 +6,7 @@
 		"food": 1,
 		"gold": 1,
 		"movementCost": 1,
-		"uniques":["Becomes [Grassland] when adjacent to [Grassland Core]","Becomes [Coast] when adjacent to [Grassland]"]
+		"uniques":["Becomes [Grassland] when adjacent to [Grassland Core]","Becomes [Coast] when adjacent to [Grassland]"]//this is so fun
 		"RGB": [43, 87, 151]
 	},
 	{
@@ -38,7 +38,7 @@
 		"occursOn": ["Ocean"],
         "RGB": [0, 163, 0],
         "uniques": [
-			"Vegetation"
+			"Rare Feature"
 		]
     }
 
