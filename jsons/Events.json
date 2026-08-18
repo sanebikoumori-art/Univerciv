@@ -78,9 +78,9 @@
         ]
     },
     {
-        "name":"",
+        "name":"First Life",
 		"civilopediaText":[
-            {"text":"When electrons are drawn in by electromagnetic force and join this structure, it becomes a highly stable state. This is hydrogen.","centered":true},
+            {"text":"Meteorite impacts, volcanic activity, and lightning strikes combined on the primordial planet to produce amino acids. In warm waters, these amino acids formed proteins, which then bonded with phosphorus to create nucleotides. It construct the DNA. Finally, the DNA became encased in a protein membrane. The Life is cooked.","centered":true},
             {"extraImage":"Big Bang", "imageSize":410},
         ],
         "choices": [
