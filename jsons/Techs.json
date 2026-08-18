@@ -9,7 +9,7 @@
 			{
 				"name": "Big Bang",
 				"row": 6,
-				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
+				"quote": "",
 				"uniques": ["Starting tech","Triggers a [Big Bang] event","Play [tankshot] sound"]
 			}
 		]
@@ -431,44 +431,53 @@
             {
 				"name": "Neocerebellum",
 				"row": 1,
-				"quote": ".",
+				"quote": "Let's Dance, Sing, rhythmically!",
 				"uniques": [],
-                "prerequisites": ["Memories","Hearts"]
+                "prerequisites": ["Neocortex"]
 			},
 			{
-				"name": "Hairs",
+				"name": "Episodes",
+				"row": 2,
+				"quote": "Let all the souls here rest in peace, for we shall not repeat the evil.",
+				"uniques": [],
+                "prerequisites": ["Neocortex"]
+			},
+			{
+				"name": "Abstract Insight",
 				"row": 3,
-				"quote": "AGE OF FUURY BEGAN",
-				"uniques": [],
-                "prerequisites": ["Hearts"]
+				"quote": "Where are we came from. And Where I'm going to. Even, who is us. Who is whispering inside of me...?",
+				"uniques": ["Enable Religeons"],
+                "prerequisites": ["Neocortex","Hairs"]
 			},
 			{
-				"name": "Gland Systems",
+				"name": "Sport",
 				"row": 4,
-				"quote": "A meal tastes great after working up a sweat.",
+				"quote": "Human endurance is among the greatest in the mammals. It underpinned the prolonged physical labor of agricultural civilizations and sustained military operations. Humans also have great ability in throwing.",
 				"uniques": [],
-                "prerequisites": ["Lung","Hearts"]
+                "prerequisites": ["Gland Systems"]
 			},
 			{
-				"name": "Brown Algaes",
-				"row": 5,
-				"quote": "Kelp forests supply vast amounts of nutrients to ocean. Also, it work as school for child fishes.",
-				"uniques": [],
-                "prerequisites": ["Coral Reefs"]
-			},
-			{
-				"name": "Legs",
+				"name": "Thumb Opposability",
 				"row": 6,
-				"quote": "Step on the ground, jump jump jump",
+				"quote": "We able to grasp the victorious!",
 				"uniques": [],
-                "prerequisites": ["Vertebrate","Lung","Hearts","Vascular Plant"]
-			},
+                "prerequisites": ["Legs"]
+			}
+		]
+	},
+	{
+		"columnNumber": 12,
+		"era": "Anthropocene",
+		"techCost": 1000,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
 			{
-				"name": "Grassland",
-				"row": 8,
-				"quote": "Time is come. Fill the entire ground with greens!",
+				"name": "Agriculture",
+				"row": 6,
+				"quote": "'Where tillage begins, other arts follow. The farmers therefore are the founders of human civilization.' - Daniel Webster",
 				"uniques": [],
-                "prerequisites": ["Angiosperms"]
+                "prerequisites": ["Neocerebellum","Episodes","Abstract Insight","Sport","Thumb Opposability"]
 			}
 		]
 	}
