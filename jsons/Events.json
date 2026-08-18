@@ -1,0 +1,92 @@
+[
+	{
+        "name":"Big Bang",
+		"civilopediaText":[
+			{"text":"How space and time originated is not well understood. The fundamental topology of the universe is also a subject of debate. Here, we believe the Big Bang hypothesis.","centered":true},
+            {"extraImage":"Big Bang", "imageSize":410},
+        ],
+        "choices": [
+			{
+				"text": "Okay."
+			},
+            {
+				"text": "Wrong.",
+                "uniques":["Triggers a [Big Bang2] event"]
+			}
+        ]
+    },
+    {
+        "name":"Big Bang2",
+		"civilopediaText":[
+            {"text":"Only space and time exist here. It is a state of perfect symmetry, where nothing has yet distinguished itself from anything else. It may appear as though there is nothing, yet time endures, and energy remains.","centered":true},
+            {"extraImage":"Big Bang", "imageSize":410},
+        ],
+        "choices": [
+			{
+				"text": "Okay."
+			}
+        ]
+    },
+    {
+        "name":"Gravity",
+		"civilopediaText":[
+            {"text":"A spin-2 particle appeared from the early symmetry violation, and it was called the graviton.","centered":true},
+            {"extraImage":"Big Bang", "imageSize":410},
+        ],
+        "choices": [
+			{
+				"text": "Okay."
+			}
+        ]
+    },
+    {
+        "name":"Light",
+		"civilopediaText":[
+            {"text":"Photons, the particles with zero mass are created. Due to they lack mass, they travel through space at the speed of light. However, in the early universe, photons could not travel in a straight line due to scattering by free electrons.","centered":true},
+            {"extraImage":"Big Bang", "imageSize":410},
+        ],
+        "choices": [
+			{
+				"text": "Okay."
+			}
+        ]
+    },
+    {
+        "name":"Atom",
+		"civilopediaText":[
+            {"text":"Particles bound together by a strong attractive force form the first atomic nuclei.","centered":true},
+            {"extraImage":"Big Bang", "imageSize":410},
+            {"text":"When electrons are drawn in by electromagnetic force and join this structure, it becomes a highly stable state. This is hydrogen.","centered":true},
+        ],
+        "choices": [
+			{
+				"text": "Okay.",
+                "uniques":["Triggers a [Atom2] event"]
+			}
+        ]
+    },
+    {
+        "name":"Atom2",
+		"civilopediaText":[
+            {"text":"When electrons are drawn in by electromagnetic force and join this structure, it becomes a highly stable state. This is hydrogen.","centered":true},
+            {"extraImage":"Big Bang", "imageSize":410},
+        ],
+        "choices": [
+			{
+				"text": "Okay."
+			}
+        ]
+    },
+    {
+        "name":"",
+		"civilopediaText":[
+            {"text":"When electrons are drawn in by electromagnetic force and join this structure, it becomes a highly stable state. This is hydrogen.","centered":true},
+            {"extraImage":"Big Bang", "imageSize":410},
+        ],
+        "choices": [
+			{
+				"text": "Okay."
+			}
+        ]
+    }
+]
