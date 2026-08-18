@@ -167,7 +167,7 @@
 		]
 	},
 	{
-		"columnNumber": 5,
+		"columnNumber": 6,
 		"era": "Hadean",
 		"techCost": 520,
 		"buildingCost": 40,
@@ -204,7 +204,7 @@
 		]
 	},
 	{
-		"columnNumber": 6,
+		"columnNumber": 7,
 		"era": "Archean",
 		"techCost": 640,
 		"buildingCost": 40,
@@ -241,7 +241,7 @@
 		]
 	},
 	{
-		"columnNumber": 7,
+		"columnNumber": 8,
 		"era": "Archean",
 		"techCost": 740,
 		"buildingCost": 40,
@@ -278,7 +278,7 @@
 		]
 	},
 	{
-		"columnNumber": 8,
+		"columnNumber": 9,
 		"era": "Proterozoic",
 		"techCost": 840,
 		"buildingCost": 40,
@@ -322,7 +322,7 @@
 		]
 	},
 	{
-		"columnNumber": 9,
+		"columnNumber": 10,
 		"era": "Proterozoic",
 		"techCost": 840,
 		"buildingCost": 40,
@@ -373,7 +373,7 @@
 		]
 	},
 	{
-		"columnNumber": 10,
+		"columnNumber": 11,
 		"era": "Phanerozoic",
 		"techCost": 1000,
 		"buildingCost": 40,
@@ -424,7 +424,7 @@
 		]
 	},
 	{
-		"columnNumber": 11,
+		"columnNumber": 12,
 		"era": "Phanerozoic",
 		"techCost": 1000,
 		"buildingCost": 40,
@@ -468,7 +468,7 @@
 		]
 	},
 	{
-		"columnNumber": 12,
+		"columnNumber": 13,
 		"era": "Anthropocene",
 		"techCost": 1000,
 		"buildingCost": 40,
@@ -484,7 +484,7 @@
 		]
 	},
 	{
-		"columnNumber": 13,
+		"columnNumber": 14,
 		"era": "Anthropocene",
 		"techCost": 2000,
 		"buildingCost": 40,
@@ -501,34 +501,34 @@
 				"name": "Discovery",
 				"row": 4,
 				"quote": "They began using mathematics to calculate the size of land. Furthermore, some curious mans are attempting to describe physical phenomena such as water pressure using maths.",
-				"uniques": [],
+				"uniques": ["Only available <after discovering [Civilization]>"],
                 "prerequisites": ["Agriculture"]
 			},
 			{
 				"name": "Industry",
 				"row": 6,
 				"quote": "They have discoveried the equations of motion, designed steam or diesel engines, harnessed immense power, and lighting the world. Now, they even produce fertilizer from the air. It even seems possible to transform copper into gold. The time has come to understand the very constituents of matter.",
-				"uniques": [],
+				"uniques": ["Only available <after discovering [Discovery]>"],
                 "prerequisites": ["Agriculture"]
 			},
 			{
 				"name": "Atomic",
 				"row": 8,
 				"quote": "They soared through the skies, stepping over corpses, and ultimately obtained the nuclear power capable of destroying themselves. Now, they require security to safeguard this power.",
-				"uniques": [],
+				"uniques": ["Only available <after discovering [Industry]>"],
                 "prerequisites": ["Agriculture"]
 			},
 			{
 				"name": "Information",
 				"row": 10,
 				"quote": "What began with punch cards now possesses computational and memory capabilities surpassing those of any genius on the planet. With this, calculating the trajectory of a space shuttle is a piece of cake.",
-				"uniques": [],
+				"uniques": ["Only available <after discovering [Atomic]>"],
                 "prerequisites": ["Agriculture"]
 			}
 		]
 	},
 	{
-		"columnNumber": 14,
+		"columnNumber": 15,
 		"era": "Aerospace era",
 		"techCost": 2000,
 		"buildingCost": 40,
@@ -544,9 +544,9 @@
 		]
 	},
 	{
-		"columnNumber": 15,
+		"columnNumber": 16,
 		"era": "Aerospace era",
-		"techCost": 2000,
+		"techCost": 5000,
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
@@ -558,9 +558,9 @@
                 "prerequisites": ["Relativistic Rocket"]
 			},
 			{
-				"name": "",
+				"name": "Reinforced Superalloy",
 				"row": 1,
-				"quote": "To get from Japan to Brazil via the shortest route, you would have to pass through the center of the Earth, wouldn't you?",
+				"quote": "",
 				"uniques": [],
                 "prerequisites": ["Relativistic Rocket"]
 			}
