@@ -9,7 +9,7 @@
 			{
 				"name": "Big Bang",
 				"row": 6,
-				"quote": "",
+				"quote": "In the beginning God created the space and the time.",
 				"uniques": ["Starting tech","Triggers a [Big Bang] event","Play [tankshot] sound"]
 			}
 		]
@@ -24,21 +24,21 @@
             {
 				"name": "The Strong",
 				"row": 3,
-				"quote": "",
+				"quote": "And God divided the Strong from the others",
 				"uniques": [],
                 "prerequisites": ["Big Bang"]
 			},
 			{
 				"name": "The Gravity",
 				"row": 6,
-				"quote": "",
+				"quote": "And God divided the Gravity from the space",
 				"uniques": ["Triggers a [Gravity] event"],
                 "prerequisites": ["Big Bang"]
 			},
             {
 				"name": "The Weak",
 				"row": 8,
-				"quote": "",
+				"quote": "And God divided the Weak from the others",
 				"uniques": [],
                 "prerequisites": ["Big Bang"]
 			},
@@ -54,21 +54,23 @@
             {
 				"name": "The Higgs",
 				"row": 2,
-				"quote": "",
+				"quote": "And God said: 'Let the higgs under the least action be gathered together unto one place, and let the mass appear.' And it was so.",
 				"uniques": [],
                 "prerequisites": ["The Gravity","The Strong"]
 			},
 			{
 				"name": "The Light",
 				"row": 6,
-				"quote": "",
+				"quote": "And God said: 'Let there be light.' And there was light.",
 				"uniques": ["Triggers a [Light] event"],
                 "prerequisites": ["The Gravity"]
 			},
+			//And God said: 'Let the lagrangian under the least action be gathered together unto one place, and let the motions appear.' And it was so.
             {
 				"name": "The Electromagnetics",
 				"row": 9,
-				"quote": "",
+				"quote": "And God said: 'Let there be a electromagnetic in the midst of the light, and let it divide the electromagnetic from the weak.'",
+				//0.0000000000001 seconds after big bang, Electromagnetic and weak violated symmetry.
 				"uniques": [],
                 "prerequisites": ["The Gravity","The Weak"]
 			},
@@ -84,21 +86,21 @@
             {
 				"name": "Nuclear Fusion",
 				"row": 2,
-				"quote": "",
+				"quote": "Nuclear fusion occurs through the involvement of the weak force, producing some metals.",
 				"uniques": [],
                 "prerequisites": ["The Higgs","The Light"]
 			},
 			{
 				"name": "Atom",
 				"row": 6,
-				"quote": "",
+				"quote": "The strong force holds the atomic nucleus together, while the electromagnetic force attracts the electrons. The hydrogen is cooked.",
 				"uniques": ["Triggers a [Atom] event"],
                 "prerequisites": ["The Electromagnetics","The Higgs","The Light"]
 			},
             {
 				"name": "CP Violation",
 				"row": 9,
-				"quote": "",
+				"quote": "'Nothingness' means that positive and negative elements exist in equal amounts. For something to exist, this balance must be disrupted.",
 				"uniques": [],
                 "prerequisites": ["The Electromagnetics"]
 			},
@@ -114,21 +116,21 @@
             {
 				"name": "Periodic Table",
 				"row": 2,
-				"quote": "",
+				"quote": "While the remnants of stars produce many elements, but they only generate elements up to iron at most. Completing the periodic table requires supernova explosions or artificial manipulation.",
 				"uniques": [],
                 "prerequisites": ["Nuclear Fusion","Atom"]
 			},
 			{
 				"name": "Stars",
 				"row": 6,
-				"quote": "",
+				"quote": "The sun is a massive concentration of gravity that simultaneously emits a great deal of light. The Dark Ages are coming to an end.",
 				"uniques": ["Triggers a [Star] event"],
                 "prerequisites": ["Atom","CP Violation","Nuclear Fusion"]
 			},
             {
 				"name": "Molecule",
 				"row": 9,
-				"quote": "",
+				"quote": "Atoms bond together via van der Waals forces to form molecules. Once again, the electromagnetic force is at work well.",
 				"uniques": [],
                 "prerequisites": ["CP Violation","Atom"]
 			},
@@ -522,6 +524,45 @@
 				"quote": "What began with punch cards now possesses computational and memory capabilities surpassing those of any genius on the planet. With this, calculating the trajectory of a space shuttle is a piece of cake.",
 				"uniques": [],
                 "prerequisites": ["Agriculture"]
+			}
+		]
+	},
+	{
+		"columnNumber": 14,
+		"era": "Aerospace era",
+		"techCost": 2000,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Relativistic Rocket",
+				"row": 6,
+				"quote": "The unrealistic rockets that often appeared in physicists' hypothetical scenarios are now a reality.",
+				"uniques": [],
+                "prerequisites": ["Civilization","Discovery","Industry","Atomic","Information"]
+			}
+		]
+	},
+	{
+		"columnNumber": 15,
+		"era": "Aerospace era",
+		"techCost": 2000,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "FTL Drive",
+				"row": 6,
+				"quote": "To get from Japan to Brazil via the shortest route, you would have to pass through the center of the Earth, wouldn't you?",
+				"uniques": [],
+                "prerequisites": ["Relativistic Rocket"]
+			},
+			{
+				"name": "",
+				"row": 1,
+				"quote": "To get from Japan to Brazil via the shortest route, you would have to pass through the center of the Earth, wouldn't you?",
+				"uniques": [],
+                "prerequisites": ["Relativistic Rocket"]
 			}
 		]
 	}
