@@ -35,10 +35,11 @@
 		"name": "Grassland Core",
 		"type": "TerrainFeature",
 		"movementCost": 1,
-		"occursOn": ["Ocean"],
+		"occursOn": ["Ocean","Grassland"],
         "RGB": [0, 163, 0],
         "uniques": [
-			"Rare feature"
+			"Occurs in groups of [0] to [1] tiles",
+			"Neighboring tiles will convert to [Grassland]",
 		]
     }
 
