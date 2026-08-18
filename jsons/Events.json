@@ -77,6 +77,18 @@
 			}
         ]
     },
+	{
+        "name":"Star",
+		"civilopediaText":[
+            {"text":"The only elements produced by these fundamental forces are, at most, hydrogen and helium. Eventually, these gases gather in regions of strong gravity to form stars. High-purity helium and hydrogen are ideal for nuclear fusion. Thus, stars begin to function as natural fusion reactors, generating vast amounts of energy and producing metallic elements.","centered":true},
+            {"extraImage":"Big Bang", "imageSize":410},
+        ],
+        "choices": [
+			{
+				"text": "Okay."
+			}
+        ]
+    },
     {
         "name":"First Life",
 		"civilopediaText":[
