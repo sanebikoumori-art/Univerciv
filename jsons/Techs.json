@@ -31,7 +31,7 @@
 			{
 				"name": "The Gravity",
 				"row": 6,
-				"quote": "Now the space was unformed and void. The vibrations were upon the face of the manifold; and the energy of God hovered over the face of the spacetime. And God saw the spacetime, that it was good; and God created the spin 2 from the vibration.",
+				"quote": "Now the space was unformed and void. The vibrations were upon the face of the manifold; and the energy of God hovered over the face of the spacetime. And God saw the spacetime, that it was good; and God created the tensor from the vibration.",
 				"uniques": ["Triggers a [Gravity] event"],
                 "prerequisites": ["Big Bang"]
 			},
