@@ -101,3 +101,73 @@ TileSets/FantasyHex/Tiles/Sun
   orig: 32, 36
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Higgs
+  rotate: false
+  xy: 32, 216
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Graviton
+  rotate: false
+  xy: 64, 216
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Gluon
+  rotate: false
+  xy: 96, 216
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Photon
+  rotate: false
+  xy: 128, 216
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Electron
+  rotate: false
+  xy: 128, 252
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Hydrogen
+  rotate: false
+  xy: 96, 252
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Helium
+  rotate: false
+  xy: 64, 252
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Iron
+  rotate: false
+  xy: 32, 252
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Gold
+  rotate: false
+  xy: 0, 252
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Black Hole
+  rotate: false
+  xy: 0, 288
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
