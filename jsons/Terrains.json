@@ -7,8 +7,8 @@
 		"gold": 1,
 		"movementCost": 1,
 		"uniques":["Becomes [Grassland] when adjacent to [Grassland Core]","Becomes [Coast] when adjacent to [Grassland]",
-		"Turn this tile into a [Coast] tile <in tiles adjacent to [Land] tiles> <upon turn end>"//←is this not allowed?
-			//or Coastal water <in tiles adjacent to [Land] tiles>
+		//"Turn this tile into a [Coast] tile <in tiles adjacent to [Land] tiles> <upon turn end>"
+		"Coastal water <in tiles adjacent to [Land] tiles>"
 		]
 		"RGB": [43, 87, 151]
 	},
