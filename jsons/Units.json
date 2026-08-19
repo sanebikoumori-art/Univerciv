@@ -34,7 +34,7 @@
 		"cost": 10,
 		"requiredTech": "The Strong",
 		"obsoleteTech": "The Higgs",
-		"upgradesTo": "Photon",
+		"upgradesTo": "Higgs",
 		"uniques":[
 			"Turn this tile into a [Timespace] tile <upon entering a [Coast] tile>",
 			"Turn this tile into a [Fundamental Field] tile <upon entering a [Timespace] tile>"
