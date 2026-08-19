@@ -45,3 +45,10 @@ TileSets/FantasyHex/Tiles/Matter Space
   orig: 32, 36
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Sun
+  rotate: false
+  xy: 64, 36
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
