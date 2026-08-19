@@ -8,7 +8,7 @@
         "name": "Gauge Particle",
         "movementType": "Land",
         "uniques":[
-            "[-3] Sight",
+            "[-2] Sight",
             "Can move immediately once bought",
             "All tiles cost 1 movement",
             "May travel on Water tiles without embarking",
@@ -19,7 +19,7 @@
         "name": "Scalar Particle",
         "movementType": "Land",
         "uniques":[
-            "[-3] Sight",
+            "[-2] Sight",
             "Can move immediately once bought",
             "All tiles cost 1 movement",
             "May travel on Water tiles without embarking",
@@ -30,7 +30,7 @@
         "name": "Lepton",
         "movementType": "Land",
         "uniques":[
-            "[-3] Sight",
+            "[-2] Sight",
             "Can move immediately once bought",
             "All tiles cost 1 movement",
             "May travel on Water tiles without embarking",
