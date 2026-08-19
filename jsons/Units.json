@@ -58,7 +58,7 @@
 	},
 	{
 		"name":"Photon",
-		"unitType":"Particle",
+		"unitType":"Gauge Particle",
 		"movement":4,
 		"strength":6,
 		"cost": 10,
