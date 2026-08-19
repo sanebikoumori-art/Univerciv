@@ -470,7 +470,7 @@
 				"row": 8,
 				"quote": "They are angiosperms with very small flowers that make up a large part of the vegetation on land.",
 				"uniques": [],
-                "prerequisites": ["Angiosperms"]
+                "prerequisites": ["Angiosperms","Brown Algaes"]
 			}
 		]
 	},
