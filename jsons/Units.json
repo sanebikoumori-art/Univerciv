@@ -6,7 +6,7 @@
 		"cost": 106,
 		"requiredTech": "Agriculture",
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
-			"Requires at least [2] population"],
+			"Requires at least [2] population","[-3] Sight"],
 		"hurryCostModifier": 20
 	},
 	{
@@ -19,7 +19,7 @@
 			"Can build [Land] improvements on tiles",
 			"Automation is a primary action",
 			"Turn this tile into a [Timespace] tile <upon entering a [Coast] tile>",
-			"[-2] Sight",
+			"[-3] Sight",
             "Can move immediately once bought",
             "All tiles cost 1 movement",
             "May travel on Water tiles without embarking"
