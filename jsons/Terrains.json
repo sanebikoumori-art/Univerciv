@@ -46,7 +46,6 @@
 		"name": "Timespace",
 		"type": "Land",
 		"movementCost": 1,
-		"production":1,
         "RGB": [0, 163, 0],
         "uniques": ["Uncompleted Space",
 			"Space"
