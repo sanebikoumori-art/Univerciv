@@ -66,7 +66,7 @@
 		//"obsoleteTech": "",
 		"uniques":[
 			"[+1] Sight",
-			"[+1] Sight <after discovering [The Electromagnetics]>",
+			"[+1] Sight <after discovering [Electromagnetism]>",
 			"Turn this tile into a [Blank Space] tile <upon entering a [Coast] tile>",
 			"Turn this tile into a [Blank Space] tile <upon entering a [Timespace] tile>",
 			"Turn this tile into a [Blank Space] tile <upon entering a [Fundamental Field] tile>"
@@ -81,7 +81,7 @@
 		"rangedStrength":11,
 		"strength":8,
 		"cost": 10,
-		"requiredTech": "The Electromagnetics",
+		"requiredTech": "Electromagnetism",
 		"uniques":[
 			"Turn this tile into a [Blank Space] tile <upon entering a [Coast] tile>",
 			"Turn this tile into a [Blank Space] tile <upon entering a [Timespace] tile>",
