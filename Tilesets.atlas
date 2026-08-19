@@ -24,3 +24,24 @@ TileSets/FantasyHex/Tiles/Timespace
   orig: 32, 36
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Fundamental Field
+  rotate: false
+  xy: 64, 0
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Light Space
+  rotate: false
+  xy: 64, 0
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Matter Space
+  rotate: false
+  xy: 64, 0
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
