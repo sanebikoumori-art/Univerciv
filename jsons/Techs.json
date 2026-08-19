@@ -295,7 +295,7 @@
 				"name": "Notochord",
 				"row": 1,
 				"quote": "Hmm... I get a shiver down my chord.",
-				"uniques": [],
+				"uniques": ["[+1 Gold] from every specialist [in all cities]"],
                 "prerequisites": ["Photoreceptors"]
 			},
 			{
@@ -332,7 +332,7 @@
 				"name": "Memories",
 				"row": 1,
 				"quote": "I'll die, but memories never die.",
-				"uniques": [],
+				"uniques": ["[+1 Science] from every specialist [in all cities]"],
                 "prerequisites": ["Eyes","Notochord"]
 			},
 			{
@@ -383,7 +383,7 @@
 				"name": "Neocortex",
 				"row": 1,
 				"quote": "We think with nature. We learn with parents. We play with pals. Then we rejoice.",
-				"uniques": [],
+				"uniques": ["[+1 Science] from every specialist [in all cities]"],
                 "prerequisites": ["Memories","Hearts"]
 			},
 			{
@@ -434,35 +434,35 @@
 				"name": "Neocerebellum",
 				"row": 1,
 				"quote": "Let's Dance, Sing, rhythmically!",
-				"uniques": [],
+				"uniques": ["[+1 Production] from every specialist [in all cities]"],
                 "prerequisites": ["Neocortex"]
 			},
 			{
 				"name": "Episodes",
 				"row": 2,
 				"quote": "Let all the souls here rest in peace, for we shall not repeat the evil.",
-				"uniques": [],
+				"uniques": ["[+1 Culture] from every specialist [in all cities]"],
                 "prerequisites": ["Neocortex"]
 			},
 			{
 				"name": "Abstract Insight",
 				"row": 3,
 				"quote": "Where are we came from. And Where I'm going to. Even, who is us. Who is whispering inside of me...?",
-				"uniques": ["Enable Religeons"],
+				"uniques": ["Enable Religeons","[+1 Faith] from every specialist [in all cities]"],
                 "prerequisites": ["Neocortex","Hairs"]
 			},
 			{
 				"name": "Sport",
 				"row": 4,
 				"quote": "Human endurance is among the greatest in the mammals. It underpinned the prolonged physical labor of agricultural civilizations and sustained military operations. Humans also have great ability in throwing.",
-				"uniques": [],
+				"uniques": ["[+1 Gold] from every specialist [in all cities]"],
                 "prerequisites": ["Gland Systems"]
 			},
 			{
-				"name": "Thumb Opposability",
+				"name": "Fire",
 				"row": 6,
-				"quote": "We able to grasp the victorious!",
-				"uniques": [],
+				"quote": "Fire at will!",
+				"uniques": ["[+1 Food] from every specialist [in all cities]"],
                 "prerequisites": ["Legs"]
 			},
 			{
