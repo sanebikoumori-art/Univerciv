@@ -3,7 +3,7 @@
 		"columnNumber": 0,
 		"era": "Planck age",
 		"techCost": 20,
-		"buildingCost": 40,
+		"buildingCost": 10,
 		"wonderCost": 185,
 		"techs": [
 			{
@@ -18,7 +18,7 @@
 		"columnNumber": 1,
 		"era": "Planck age",
 		"techCost": 30,
-		"buildingCost": 40,
+		"buildingCost": 20,
 		"wonderCost": 185,
 		"techs": [
             {
@@ -80,7 +80,7 @@
 		"columnNumber": 3,
 		"era": "Dark age",
 		"techCost": 100,
-		"buildingCost": 40,
+		"buildingCost": 80,
 		"wonderCost": 185,
 		"techs": [
             {
@@ -110,7 +110,7 @@
 		"columnNumber": 4,
 		"era": "Dark age",
 		"techCost": 160,
-		"buildingCost": 40,
+		"buildingCost": 120,
 		"wonderCost": 185,
 		"techs": [
             {
@@ -140,7 +140,7 @@
 		"columnNumber": 5,
 		"era": "Hadean",
 		"techCost": 300,
-		"buildingCost": 40,
+		"buildingCost": 160,
 		"wonderCost": 185,
 		"techs": [
             {
@@ -170,7 +170,7 @@
 		"columnNumber": 6,
 		"era": "Hadean",
 		"techCost": 520,
-		"buildingCost": 40,
+		"buildingCost": 185,
 		"wonderCost": 185,
 		"techs": [
             {
@@ -208,7 +208,7 @@
 		"era": "Archean",
 		"techCost": 640,
 		"buildingCost": 40,
-		"wonderCost": 185,
+		"wonderCost": 245,
 		"techs": [
             {
 				"name": "Cytoplasm",
@@ -244,8 +244,8 @@
 		"columnNumber": 8,
 		"era": "Archean",
 		"techCost": 740,
-		"buildingCost": 40,
-		"wonderCost": 185,
+		"buildingCost": 380,
+		"wonderCost": 380,
 		"techs": [
             {
 				"name": "Photoreceptors",
@@ -281,7 +281,7 @@
 		"columnNumber": 9,
 		"era": "Proterozoic",
 		"techCost": 840,
-		"buildingCost": 40,
+		"buildingCost": 523,
 		"wonderCost": 185,
 		"techs": [
             {
@@ -325,7 +325,7 @@
 		"columnNumber": 10,
 		"era": "Proterozoic",
 		"techCost": 840,
-		"buildingCost": 40,
+		"buildingCost": 925,
 		"wonderCost": 185,
 		"techs": [
             {
@@ -376,7 +376,7 @@
 		"columnNumber": 11,
 		"era": "Phanerozoic",
 		"techCost": 1000,
-		"buildingCost": 40,
+		"buildingCost": 1024,
 		"wonderCost": 185,
 		"techs": [
             {
@@ -427,7 +427,7 @@
 		"columnNumber": 12,
 		"era": "Phanerozoic",
 		"techCost": 1000,
-		"buildingCost": 40,
+		"buildingCost": 1675,
 		"wonderCost": 185,
 		"techs": [
             {
@@ -478,7 +478,7 @@
 		"columnNumber": 13,
 		"era": "Anthropocene",
 		"techCost": 1000,
-		"buildingCost": 40,
+		"buildingCost": 2350,
 		"wonderCost": 185,
 		"techs": [
 			{
@@ -494,7 +494,7 @@
 		"columnNumber": 14,
 		"era": "Anthropocene",
 		"techCost": 2000,
-		"buildingCost": 40,
+		"buildingCost": 3850,
 		"wonderCost": 185,
 		"techs": [
 			{
@@ -554,7 +554,7 @@
 		"columnNumber": 16,
 		"era": "Aerospace era",
 		"techCost": 5000,
-		"buildingCost": 40,
+		"buildingCost": 5000,
 		"wonderCost": 185,
 		"techs": [
 			{
