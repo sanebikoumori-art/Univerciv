@@ -19,7 +19,6 @@
             "Considered [Desirable] when determining start locations <on water maps>",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.",
             "Coastal Water",
-			"Become [Void] when adjacent to [Gravitational Singularity]"
 		]
 	},
 	{
@@ -30,7 +29,7 @@
         "RGB": [0, 163, 0],
         "uniques": [
 			"Become [Void] when adjacent to [Gravitational Singularity]",
-			"Becomes [Coast] when adjacent to [non-[Void]]",
+			//"Becomes [Coast] when adjacent to [non-[Void]]",
 		]
     },
 	{
