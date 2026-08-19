@@ -1,0 +1,12 @@
+[
+	{
+		"name":"Creature",
+		"science":1,
+		"color": [0,0,255]
+	},
+    {
+		"name":"Biomass",
+		"food":1,
+		"color": [0,0,255]
+	}
+]
