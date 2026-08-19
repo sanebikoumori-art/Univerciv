@@ -31,7 +31,7 @@ TileSets/FantasyHex/Tiles/Fundamental Field
   orig: 32, 36
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Light Space
+TileSets/FantasyHex/Tiles/Blank Space
   rotate: false
   xy: 64, 0
   size: 32, 36
