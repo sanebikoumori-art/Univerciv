@@ -146,8 +146,140 @@
 		"production":2,
         "requiredTech":"Primordial Soup"
     },
-    //Protozoic
-    //Phanerozoic
+	{
+        "name":"Volcano",
+		"production":2,
+        "requiredTech":"Plume"
+    },
+	{
+        "name":"Ozone Layer",
+		"uniques":["[15]% Food is carried over after population increases [in this city]"],
+        "requiredTech":"Plume"
+    },
+	{
+        "name":"Tidal Acceleration",
+		"uniques":["[+10]% growth [in this city]"],
+        "requiredTech":"Moon"
+    },
+    //Archean
+	{
+        "name":"Tidal Force",
+		"production":2,
+        "requiredTech":"Tidal Wave"
+    },
+	{
+        "name":"Cyanobacteria",
+		"food":4,
+		"specialistSlots": {"Biomass": 1},
+        "requiredTech":"Bacteria"
+    },
+	{
+        "name":"Mitochondria",
+		"gold":3,
+		"uniques":["[+25]% [Gold] [in this city]"],
+        "requiredTech":"Archaea"
+    },
+	{
+        "name":"Chloroplast",
+		"production":2,
+		"uniques":["[+15]% [Production] [in this city]"],
+        "requiredTech":"Archaea"
+    },
+	{
+        "name":"Animal",
+		"food":2,
+		"specialistSlots": {"Creature": 1},
+        "requiredTech":"Eukaryote"
+    },
+	{
+        "name":"Fungi",
+		"food":2,
+		"specialistSlots": {"Biomass": 1},
+        "requiredTech":"Eukaryote"
+    },
+	{
+        "name":"Algae",
+		"food":2,
+		"specialistSlots": {"Biomass": 1},
+        "requiredTech":"Eukaryote"
+    },
+	{
+        "name":"Gender",
+		"uniques":["[25]% Food is carried over after population increases [in this city]"],
+        "requiredTech":"Sexual Reproduction"
+    },
+	{
+        "name":"Compound Eye",
+		"uniques":["[+1 Production] per [5] population [in this city]"],
+        "requiredTech":"Photoreceptors"
+    },
+	//Protozoic
+	{
+        "name":"Jellyfish",
+		"food":2,
+		"specialistSlots": {"Creature": 1},
+        "requiredTech":"Cnidaria"
+    },
+	{
+        "name":"Reef",
+		"food":2,
+        "requiredTech":"Coral Reefs"
+    },
+	{
+        "name":"Radiodont",
+		"food":2,
+		"specialistSlots": {"Creature": 1},
+        "requiredTech":"Bilateria"
+    },
+	{
+        "name":"Worms",
+		"food":2,
+		"specialistSlots": {"Biomass": 1},
+        "requiredTech":"Bilateria"
+    },
+	{
+        "name":"Fish",
+		"food":2,
+		"specialistSlots": {"Creature": 2},
+        "requiredTech":"Vertebrate"
+    },
+	{
+        "name":"Green Algae",
+		"food":2,
+		"specialistSlots": {"Biomass": 1},
+        "requiredTech":"Archaeplastids"
+    },
+	{
+        "name":"Fern",
+		"food":2,
+		"specialistSlots": {"Biomass": 2},
+        "requiredTech":"Vascular Plant"
+    },
+	{
+        "name":"Tree",
+		"food":2,
+		"specialistSlots": {"Biomass": 1},
+        "requiredTech":"Vascular Plant"
+    },
+	{
+        "name":"Cephalopod",
+		"food":2,
+		"specialistSlots": {"Biomass": 1,"Creature":1},
+        "requiredTech":"Eyes"
+    },
+	//Phanerozoic
+	{
+        "name":"Flowers",
+		"food":2,
+		"specialistSlots": {"Biomass": 1},
+        "requiredTech":"Angiosperm"
+    },
+	{
+        "name":"Grassland",
+		"food":2,
+		"specialistSlots": {"Biomass": 3},
+        "requiredTech":"Poales"
+    },
     //Anthropocene
     //Aerospace
     //Deepspace
