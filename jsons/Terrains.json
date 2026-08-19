@@ -3,27 +3,23 @@
 	{
 		"name": "Ocean",
 		"type": "Water",
-		"food": 1,
-		"gold": 1,
 		"movementCost": 1,
 		"uniques":["Becomes [Coast] when adjacent to [Grassland]",
-		"Coastal water <in tiles adjacent to [Land] tiles>",
 		"Use [nametable from atlas] texture <conditions>",
-		//"Turn this tile into a [Coast] tile <in tiles adjacent to [Land] tiles> <upon turn end>"
 		]
 		"RGB": [43, 87, 151]
 	},
 	{
 		"name": "Coast",
+		"gold": 1,
 		"type": "Water",
-		"food": 1,
-        "gold": 1,
 		"movementCost": 1,
 		"RGB": [70, 138, 216],
 		"uniques": ["[+2] to Fertility for Map Generation",
             "Considered [Desirable] when determining start locations <on water maps>",
             "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.",
             "Coastal Water",
+			"Become [Void] when adjacent to [Gravitational Singularity]"
 		]
 	},
 	{
@@ -34,6 +30,27 @@
         "RGB": [0, 163, 0],
         "uniques": [
 			"Becomes [Coast] when adjacent to [Coast]"
+		]
+    },
+	{
+		"name": "Void",
+		"type": "Land",
+		"gold": 2,
+		"movementCost": 1,
+        "RGB": [0, 163, 0],
+        "uniques": [
+			"Doesn't generate naturally"
+		]
+    },
+	{
+		"name": "Gravitational Singularity",
+		"type": "TerrainFeature",
+		"occursOn": ["Coast"],
+		"food": 2,
+		"movementCost": 1,
+        "RGB": [0, 163, 0],
+        "uniques": [
+			"Rare feature"
 		]
     },
     {
