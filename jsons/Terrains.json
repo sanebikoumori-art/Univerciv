@@ -47,7 +47,9 @@
 		"type": "Land",
 		"movementCost": 1,
         "RGB": [0, 163, 0],
-        "uniques": ["Uncompleted Space"]
+        "uniques": ["Uncompleted Space",
+		"[+100] [Food] <when adjacent to a [AI player] unit>"
+		]
     },
 	{
 		"name": "Fundamental Field",
