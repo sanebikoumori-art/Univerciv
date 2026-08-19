@@ -272,7 +272,7 @@
         "name":"Flowers",
 		"food":2,
 		"specialistSlots": {"Biomass": 1},
-        "requiredTech":"Angiosperm"
+        "requiredTech":"Angiosperms"
     },
 	{
         "name":"Grassland",
