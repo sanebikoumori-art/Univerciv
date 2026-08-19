@@ -55,7 +55,7 @@
 		"gold": 2,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
-        "uniques": []
+        "uniques": ["Doesn't generate naturally"]
     },
 	{
 		"name": "Blank Space",
@@ -63,7 +63,7 @@
 		"gold": 2,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
-        "uniques": []
+        "uniques": ["Doesn't generate naturally"]
     },
 	{
 		"name": "Matter Space",
@@ -71,7 +71,7 @@
 		"gold": 2,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
-        "uniques": []
+        "uniques": ["Doesn't generate naturally"]
     },
 	{
 		"name": "Gravitational Singularity",
@@ -91,6 +91,6 @@
 		"gold": 3,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
-        "uniques": []
+        "uniques": ["Doesn't generate naturally"]
     }
 ]
