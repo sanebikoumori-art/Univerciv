@@ -22,7 +22,9 @@
 			"[-3] Sight",
             "Can move immediately once bought",
             "All tiles cost 1 movement",
-            "May travel on Water tiles without embarking"
+            "May travel on Water tiles without embarking",
+			"Turn this tile into a [Sun] tile <upon turn start> <in [Planetary Gas Cloud] tiles>",
+			"Remove [Planetary Gas Cloud] improvements from this tile <upon turn start>",
 		],
 		"promotions": ["Tensor 2"]
 	},
