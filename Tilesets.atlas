@@ -33,21 +33,21 @@ TileSets/FantasyHex/Tiles/Fundamental Field
   index: -1
 TileSets/FantasyHex/Tiles/Blank Space
   rotate: false
-  xy: 64, 0
+  xy: 96, 0
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Matter Space
   rotate: false
-  xy: 64, 0
+  xy: 128, 0
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Sun
   rotate: false
-  xy: 64, 36
+  xy: 128, 36
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
