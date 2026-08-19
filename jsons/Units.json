@@ -137,7 +137,7 @@
 		"cost": 10,
 		"requiredTech": "Black Hole",
 		"uniques":[
-			"Turn this tile into a [Matter Space] tile <upon entering a [Uncompleted Space] tile>",
+			"Turn this tile into a [Blank Space] tile <upon entering a [Matter Space] tile>",
 		],
 	}
 ]
