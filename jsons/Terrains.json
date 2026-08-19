@@ -29,8 +29,8 @@
 		"movementCost": 1,
         "RGB": [0, 163, 0],
         "uniques": [
-			"Becomes [Coast] when adjacent to [non-[Gravitational Singularity]]",
-			"Become [Void] when adjacent to [Gravitational Singularity]"
+			"Become [Void] when adjacent to [Gravitational Singularity]",
+			"Becomes [Coast] when adjacent to [non-[Void]]",
 		]
     },
 	{
