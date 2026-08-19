@@ -100,5 +100,23 @@
 				"text": "Okay."
 			}
         ]
-    }
+    },
+	//Util functions
+	//technically we able to emulate if block, while block, and recursion with events
+	//work as for block with stockpiled variables
+	//finite automata
+	{
+        "name":"Function:example",
+        "choices": [
+			{
+				"text": "0",
+				"uniques":[""]
+			},
+            {
+				"text": "1",
+                "uniques":[""]
+			}
+        ],
+		"presentation": "None"
+    },
 ]
