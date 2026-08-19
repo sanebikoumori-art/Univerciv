@@ -1,1 +1,69 @@
-[]
+[
+	{
+		"name": "Calabi Yau Manifold",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2.5,
+		"cost": 0,
+		"uniques": ["Indicates the capital city"]
+	},
+    //Planck
+    {
+        "name":"Symmetry Violation",
+        "isNationalWonder": true,
+        "cost":10,
+        "gold":1,
+        "science":2,
+        "requiredTech": "Big Bang",
+        "quote":"There is Perfect Symmetry in Nothingness. What happen if it break?"
+    },
+    {
+        "name":"Gravitational Singularity",
+        "cost":15,
+        "food":2,
+        "requiredTech":"The Gravity"
+    },
+    {
+        "name":"Strings",
+        "cost":20,
+        "science":1,
+        "requiredTech":"Big Bang"
+    },
+    {
+        "name":"Wave",
+        "cost":10,
+        "production":1,
+        "requiredTech":"Big Bang"
+    },
+    {
+        "name":"Force",
+        "cost":10,
+        "gold":2,
+        "requiredTech":"Big Bang"
+    },
+    {
+        "name":"Spin",
+        "cost":10,
+        "production":1,
+        "requiredTech":"Big Bang"
+    },
+    {
+        "name":"Radiation",
+        "cost":10,
+        "production":1,
+        "requiredTech":"Electromagnetism"
+    },
+    //Dark
+    //Hadean
+    //Protozoic
+    //Phanerozoic
+    //Anthropocene
+    //Aerospace
+    //Deepspace
+    //Singularity
+    //Blackhole
+    //Future
+]
