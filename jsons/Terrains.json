@@ -45,7 +45,6 @@
 	{
 		"name": "Timespace",
 		"type": "Land",
-		"gold": 2,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
         "uniques": []
@@ -53,7 +52,7 @@
 	{
 		"name": "Fundamental Field",
 		"type": "Land",
-		"gold": 2,
+		"gold": 1,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
         "uniques": ["Doesn't generate naturally"]
@@ -69,7 +68,7 @@
 	{
 		"name": "Matter Space",
 		"type": "Land",
-		"gold": 2,
+		"gold": 3,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
         "uniques": ["Doesn't generate naturally"]
@@ -78,7 +77,6 @@
 		"name": "Gravitational Singularity",
 		"type": "TerrainFeature",
 		"occursOn": ["Grassland"],
-		"gold": 3,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
         "uniques": [
