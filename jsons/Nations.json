@@ -328,5 +328,11 @@
 		"uniques": [""],
 		"cities": ["Novara","New Dawn","Genesis","Renewal","Rebirth","Horizon","Hope","Prospera","Aurora","New Eden","Dawnreach","Frontier","Haven","Origin","Revival","Ascension","Evergrowth","Tomorrow","New Terra","Second Dawn","Promise","Legacy","Destiny","Future","New Horizon","Brightland","Genesis Prime","Novara Prime","Eternity","Home"],
 		"spyNames": ["Nova","Genesis","Aurora","Dawn","Hope","Atlas","Phoenix","Prometheus","Eos","Sol"]
+	},
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+        "innerColor": [185,12,12],
+		"uniques": ["Can only heal by pillaging", "Excluded from map editor"]
 	}
 ]
