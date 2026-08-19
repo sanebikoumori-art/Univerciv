@@ -46,7 +46,7 @@
 	{
 		"name": "Gravitational Singularity",
 		"type": "TerrainFeature",
-		"occursOn": ["Grassland"],
+		"occursOn": ["Grassland","Coast"],
 		"gold": 3,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
