@@ -29,6 +29,16 @@
         "RGB": [0, 163, 0],
         "uniques": [
 			"Occurs at temperature between [-1] and [1] and humidity between [-1] and [1]",
+			"Occurs at temperature between [-1] and [1] and humidity between [-1] and [1]",
+			"Occurs at temperature between [-1] and [1] and humidity between [-1] and [1]",
+			"Occurs at temperature between [-1] and [1] and humidity between [-1] and [1]",
+			"Occurs at temperature between [-1] and [1] and humidity between [-1] and [1]",
+			"Occurs at temperature between [-1] and [1] and humidity between [-1] and [1]",
+			"Occurs at temperature between [-1] and [1] and humidity between [-1] and [1]",
+			"Occurs at temperature between [-1] and [1] and humidity between [-1] and [1]",
+			"Occurs at temperature between [-1] and [1] and humidity between [-1] and [1]",
+			"Occurs at temperature between [-1] and [1] and humidity between [-1] and [1]",
+			"Occurs at temperature between [-1] and [1] and humidity between [-1] and [1]",
 			"Become [Void] when adjacent to [Gravitational Singularity]",
 			//"Becomes [Coast] when adjacent to [non-[Void]]",
 		]
@@ -50,7 +60,7 @@
 		"movementCost": 1,
         "RGB": [0, 163, 0],
         "uniques": [
-			"Vegetation"
+			"Rare feature"
 		]
     }
 ]
