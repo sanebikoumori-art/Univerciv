@@ -50,6 +50,7 @@
 		"movementCost": 1,
         "RGB": [0, 163, 0],
         "uniques": [
+			"Occurs at temperature between [-1] and [1] and humidity between [-1] and [1]",
 			"Vegetation"
 		]
     }
