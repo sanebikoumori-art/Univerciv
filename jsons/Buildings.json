@@ -127,8 +127,23 @@
     },
 	{
         "name":"Amino Acid",
+        "science":1,
+        "requiredTech":"Primordial Soup"
+    },
+	{
+        "name":"Protein",
+		"requiredBuilding":"Amino Acid",
         "science":2,
+        "requiredTech":"Primordial Soup"
+    },
+	{
+        "name":"DNA Replication",
 		"uniques":"[+25]% [Science] [in this city]",
+        "requiredTech":"Primordial Soup"
+    },
+	{
+        "name":"Meteor",
+		"production":2,
         "requiredTech":"Primordial Soup"
     },
     //Protozoic
