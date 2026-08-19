@@ -48,7 +48,8 @@
 		"movementCost": 1,
         "RGB": [0, 163, 0],
         "uniques": ["Uncompleted Space",
-			"Space"
+			"Space",
+			"[+5 Science] <before turn number [5]>"
 		]
     },
 	{
