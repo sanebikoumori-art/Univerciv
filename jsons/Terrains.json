@@ -33,6 +33,7 @@
 		"movementCost": 1,
         "RGB": [0, 163, 0],
         "uniques": [
+			"Becomes [Ocean] when adjacent to [Ocean]"
 		]
     },
     {
