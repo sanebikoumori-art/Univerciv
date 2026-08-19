@@ -2,21 +2,21 @@
     {
         "name": "Scientific",
         "victoryScreenHeader": "Capture all enemy Capitals to win!",
-        "milestones": ["Capture all capitals",""],
+        "milestones": ["Capture all capitals","Complete [1] Policy branches"],
         "victoryString": "",
         "defeatString": ""
     },
     {
         "name": "Cultural",
         "victoryScreenHeader": "Capture all enemy Capitals to win!",
-        "milestones": ["Capture all capitals","1"],
+        "milestones": ["Capture all capitals","Complete [2] Policy branches"],
         "victoryString": "",
         "defeatString": ""
     },
     {
         "name": "Diplomatic",
         "victoryScreenHeader": "Capture all enemy Capitals to win!",
-        "milestones": ["Capture all capitals","2"],
+        "milestones": ["Capture all capitals","Complete [3] Policy branches"],
         "victoryString": "",
         "defeatString": ""
     },
