@@ -18,7 +18,11 @@
 		"uniques":[
 			"Can build [Land] improvements on tiles",
 			"Automation is a primary action",
-			"Turn this tile into a [Timespace] tile <upon entering a [Coast] tile>"
+			"Turn this tile into a [Timespace] tile <upon entering a [Coast] tile>",
+			"[-2] Sight",
+            "Can move immediately once bought",
+            "All tiles cost 1 movement",
+            "May travel on Water tiles without embarking"
 		],
 		"promotions": ["Tensor 2"]
 	},
