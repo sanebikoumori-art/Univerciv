@@ -4,9 +4,7 @@
 		"name": "Ocean",
 		"type": "Water",
 		"movementCost": 1,
-		"uniques":[
-			"Become [Void] when adjacent to [Gravitational Singularity]",
-		]
+		"uniques":[]
 		"RGB": [43, 87, 151]
 	},
 	{
@@ -49,8 +47,7 @@
 		"gold": 2,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
-        "uniques": [
-		]
+        "uniques": []
     },
 	{
 		"name": "Gravitational Singularity",
