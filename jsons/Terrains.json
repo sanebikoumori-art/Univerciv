@@ -4,7 +4,7 @@
 		"name": "Ocean",
 		"type": "Water",
 		"movementCost": 1,
-		"uniques":["Becomes [Coast] when adjacent to [Grassland]",
+		"uniques":[
 		"Use [nametable from atlas] texture <conditions>",
 		]
 		"RGB": [43, 87, 151]
