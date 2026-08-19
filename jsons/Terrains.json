@@ -50,6 +50,30 @@
         "uniques": []
     },
 	{
+		"name": "Fundamental Field",
+		"type": "Land",
+		"gold": 2,
+		"movementCost": 1,
+        "RGB": [0, 163, 0],
+        "uniques": []
+    },
+	{
+		"name": "Blank Space",
+		"type": "Land",
+		"gold": 2,
+		"movementCost": 1,
+        "RGB": [0, 163, 0],
+        "uniques": []
+    },
+	{
+		"name": "Matter Space",
+		"type": "Land",
+		"gold": 2,
+		"movementCost": 1,
+        "RGB": [0, 163, 0],
+        "uniques": []
+    },
+	{
 		"name": "Gravitational Singularity",
 		"type": "TerrainFeature",
 		"occursOn": ["Grassland","Coast"],
