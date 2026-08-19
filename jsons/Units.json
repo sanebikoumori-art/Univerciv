@@ -8,5 +8,38 @@
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
+	},
+	{
+		"name":"Graviton",
+		"unitType":"Particle",
+		"movement":5,
+		"uniques":["[-2] Sight"]
+	},
+	{
+		"name":"Gluon",
+		"unitType":"Particle",
+		"movement":5,
+	},
+	{
+		"name":"Photon",
+		"unitType":"Particle",
+		"movement":5,
+	},
+	{
+		"name":"Electron",
+		"unitType":"Particle",
+		"movement":5,
+		"uniques":["[+1] Sight"]
+	},
+	{
+		"name":"Hydrogen",
+		"unitType":"Matter",
+		"movement":3,
+		""
+	},
+	{
+		"name":"Helium",
+		"unitType":"Matter",
+		"movement":2,
 	}
 ]
