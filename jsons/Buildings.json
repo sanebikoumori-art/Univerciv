@@ -92,19 +92,19 @@
 	{
         "name":"Supernova",
         "production":2,
-		"uniques":"[+10]% Production when constructing [Matter] units [in this city]",
+		"uniques":["[+10]% Production when constructing [Matter] units [in this city]"],
         "requiredTech":"Stars"
     },
 	{
         "name":"Molecular Cloud",
         "production":3,
-		"uniques":"[+10]% Production when constructing [Object] units [in this city]",
+		"uniques":["[+10]% Production when constructing [Object] units [in this city]"],
         "requiredTech":"Molecule"
     },
 	{
         "name":"Baryogenesis",
         "science":3,
-		"uniques":"[+10]% [Science] [in this city]",
+		"uniques":["[+10]% [Science] [in this city]"],
         "requiredTech":"CP Violation"
     },
 	{
@@ -116,13 +116,13 @@
 	{
         "name":"Planetary Core",
         "gold":2,
-		"uniques":"[+25]% [Gold] [in this city]",
+		"uniques":["[+25]% [Gold] [in this city]"],
         "requiredTech":"Planets"
     },
 	{
         "name":"Asteroids",
         "production":1,
-		"uniques":"[+10]% [Production] [in this city]",
+		"uniques":["[+10]% [Production] [in this city]"],
         "requiredTech":"Asteroid Belt"
     },
 	{
@@ -138,7 +138,7 @@
     },
 	{
         "name":"DNA Replication",
-		"uniques":"[+25]% [Science] [in this city]",
+		"uniques":["[+25]% [Science] [in this city]"],
         "requiredTech":"Primordial Soup"
     },
 	{
