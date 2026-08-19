@@ -30,7 +30,8 @@
         "RGB": [0, 163, 0],
         "uniques": [
 			"Becomes [Coast] when adjacent to [Coast]",
-			"Becomes [Coast] when adjacent to [River]"
+			"Becomes [Coast] when adjacent to [River]",
+			"Become [Void] when adjacent to [Gravitational Singularity]"
 		]
     },
 	{
