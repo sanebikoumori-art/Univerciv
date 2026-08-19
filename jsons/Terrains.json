@@ -9,7 +9,6 @@
 	},
 	{
 		"name": "Coast",
-		"gold": 1,
 		"type": "Water",
 		"movementCost": 1,
 		"RGB": [70, 138, 216],
@@ -22,10 +21,12 @@
 	{
 		"name": "Grassland",
 		"type": "Land",
-		"food": 2,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
         "uniques": [
+			"This should not be generated",
+			"Excluded from map editor",
+			"Will not be displayed in Civilopedia",
 			"Occurs at temperature between [-1] and [1] and humidity between [-1] and [1]",
 			"Occurs at temperature between [-1] and [1] and humidity between [-1] and [1]",
 			"Occurs at temperature between [-1] and [1] and humidity between [-1] and [1]",
@@ -76,7 +77,7 @@
 	{
 		"name": "Gravitational Singularity",
 		"type": "TerrainFeature",
-		"occursOn": ["Grassland","Coast"],
+		"occursOn": ["Grassland"],
 		"gold": 3,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
