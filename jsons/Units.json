@@ -11,14 +11,13 @@
 	},
 	{
 		"name":"Graviton",
-		"unitType":"Gauge Particle",
+		"unitType":"Civilian",
 		"movement":4,
-		"strength": 1,
 		"cost": 10,
 		"requiredTech": "The Gravity",
-		"obsoleteTech": "The Light",
-		"upgradesTo": "Photon",
 		"uniques":[
+			"Can build [Land] improvements on tiles",
+			"Automation is a primary action",
 			"Turn this tile into a [Timespace] tile <upon entering a [Coast] tile>"
 		],
 		"promotions": ["Tensor 2"]
@@ -62,6 +61,8 @@
 		"requiredTech": "The Light",
 		//"obsoleteTech": "",
 		"uniques":[
+			"[+1] Sight",
+			"[+1] Sight <after discovering [The Electromagnetics]>",
 			"Turn this tile into a [Timespace] tile <upon entering a [Coast] tile>",
 			"Turn this tile into a [Fundamental Field] tile <upon entering a [Timespace] tile>",
 			"Turn this tile into a [Blank Space] tile <upon entering a [Timespace] tile>"
@@ -70,19 +71,73 @@
 	},
 	{
 		"name":"Electron",
-		"unitType":"Particle",
+		"unitType":"Lepton",
 		"movement":2,
-		"uniques":["[+1] Sight"],
+		"range":2,
+		"rangedStrength":11,
+		"strength":8,
+		"cost": 10,
+		"requiredTech": "The Electromagnetics",
+		"uniques":[
+			"Turn this tile into a [Timespace] tile <upon entering a [Coast] tile>",
+			"Turn this tile into a [Fundamental Field] tile <upon entering a [Timespace] tile>",
+			"Turn this tile into a [Blank Space] tile <upon entering a [Timespace] tile>"
+		],
 		"promotions": ["Spinor 1/2"]
 	},
 	{
 		"name":"Hydrogen",
 		"unitType":"Matter",
 		"movement":3,
+		"strength":14,
+		"cost": 10,
+		"requiredTech": "Atom",
+		"uniques":[
+			"Turn this tile into a [Matter Space] tile <upon entering a [Uncompleted Space] tile>",
+		],
 	},
 	{
 		"name":"Helium",
 		"unitType":"Matter",
 		"movement":2,
+		"strength":20,
+		"cost": 10,
+		"requiredTech": "Nuclear Fusion",
+		"uniques":[
+			"Turn this tile into a [Matter Space] tile <upon entering a [Uncompleted Space] tile>",
+		],
+	},
+	{
+		"name":"Iron",
+		"unitType":"Matter",
+		"movement":2,
+		"strength":24,
+		"cost": 10,
+		"requiredTech": "Stars",
+		"uniques":[
+			"Turn this tile into a [Matter Space] tile <upon entering a [Uncompleted Space] tile>",
+		],
+	},
+	{
+		"name":"Gold",
+		"unitType":"Matter",
+		"movement":1,
+		"strength":32,
+		"cost": 10,
+		"requiredTech": "Periodic Table",
+		"uniques":[
+			"Turn this tile into a [Matter Space] tile <upon entering a [Uncompleted Space] tile>",
+		],
+	},
+	{
+		"name":"Black Hole",
+		"unitType":"Matter",
+		"movement":1,
+		"strength":50,
+		"cost": 10,
+		"requiredTech": "Black Hole",
+		"uniques":[
+			"Turn this tile into a [Matter Space] tile <upon entering a [Uncompleted Space] tile>",
+		],
 	}
 ]
