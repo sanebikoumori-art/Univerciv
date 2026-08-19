@@ -61,7 +61,7 @@ TileSets/FantasyHex/Tiles/City center-Phanerozoic
   index: -1
 TileSets/FantasyHex/Tiles/City center-Anthropocene
   rotate: false
-  xy: 128, 108
+  xy: 160, 72
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
