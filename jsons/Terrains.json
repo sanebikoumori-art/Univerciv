@@ -35,12 +35,12 @@
 		"name": "Grassland Core",
 		"type": "TerrainFeature",
 		"movementCost": 1,
-		"occursOn": ["Ocean","Grassland"],
+		"occursOn": ["Ocean","Grassland","Coast"],
         "RGB": [0, 163, 0],
         "uniques": [
 			"Rare feature",
 			"Occurs in groups of [1] to [1] tiles",
-			"Becomes [Ocean] when adjacent to [Grassland Core]",
+			//"Becomes [Ocean] when adjacent to [Grassland Core]",
 			"Occurs at temperature between [0] and [0.5] and humidity between [-1] and [1]",
 			"Occurs at temperature between [-1] and [-0.5] and humidity between [-1] and [1]"
 		]
