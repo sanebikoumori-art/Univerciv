@@ -41,7 +41,7 @@
 			"Vegetation",
 			"Occurs in groups of [1] to [1] tiles",
 			"Becomes [Ocean] when adjacent to [Grassland Core]",
-			"Occurs at temperature between [-1] and [1] and humidity between [-1] and [1]"
+			"Occurs at temperature between [0.1] and [0.2] and humidity between [-1] and [1]"
 		]
     }
 
