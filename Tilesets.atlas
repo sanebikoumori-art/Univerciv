@@ -1,0 +1,12 @@
+Tilesets.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/Void
+  rotate: false
+  xy: 32, 36
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
