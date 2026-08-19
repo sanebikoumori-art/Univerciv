@@ -45,6 +45,7 @@
 	{
 		"name": "Timespace",
 		"type": "Land",
+		"food":1,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
         "uniques": ["Uncompleted Space",
@@ -53,6 +54,7 @@
 	{
 		"name": "Fundamental Field",
 		"type": "Land",
+		"food":1,
 		"gold": 1,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
@@ -61,6 +63,7 @@
 	{
 		"name": "Blank Space",
 		"type": "Land",
+		"food":1,
 		"gold": 2,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
@@ -69,6 +72,7 @@
 	{
 		"name": "Matter Space",
 		"type": "Land",
+		"food": 1,
 		"gold": 3,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
