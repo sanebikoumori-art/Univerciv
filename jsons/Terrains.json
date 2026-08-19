@@ -5,7 +5,6 @@
 		"type": "Water",
 		"movementCost": 1,
 		"uniques":[
-		"Use [nametable from atlas] texture <conditions>",
 		]
 		"RGB": [43, 87, 151]
 	},
