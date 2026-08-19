@@ -126,9 +126,9 @@
         "requiredTech":"Asteroid Belt"
     },
 	{
-        "name":"Planetary Core",
-        "gold":2,
-		"uniques":"[+25]% [Gold] [in this city]",
+        "name":"Amino Acid",
+        "science":2,
+		"uniques":"[+25]% [Science] [in this city]",
         "requiredTech":"Primordial Soup"
     },
     //Protozoic
