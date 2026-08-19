@@ -5,6 +5,20 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/FantasyHex/Tiles/Void
   rotate: false
+  xy: 0, 36
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Far Void
+  rotate: false
+  xy: 0, 36
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Timespace
+  rotate: false
   xy: 32, 36
   size: 32, 36
   orig: 32, 36
