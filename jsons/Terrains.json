@@ -4,7 +4,7 @@
 		"name": "Ocean",
 		"type": "Water",
 		"movementCost": 1,
-		"uniques":[]
+		"uniques":[""]
 		"RGB": [43, 87, 151]
 	},
 	{
