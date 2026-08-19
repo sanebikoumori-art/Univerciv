@@ -6,7 +6,9 @@
 		"food": 1,
 		"turnsToBuild": 7,
 		"techRequired": "Atom",
-		"uniques": ["Turn this tile into a [Sun] tile <upon turn end>"],
+		"uniques": [
+			"Remove [Planetary Gas Cloud] improvements from this tile <upon turn end>",
+			"Turn this tile into a [Sun] tile <upon turn end>"],
 		"shortcutKey": "F"
 	},
 	//Un
