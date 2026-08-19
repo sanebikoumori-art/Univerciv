@@ -92,7 +92,9 @@
 		"name": "Sun",
 		"type": "TerrainFeature",
 		"occursOn": ["Matter Space"],
-		"gold": 3,
+		"gold": 1,
+		"food":1,
+		"production":1,
 		"movementCost": 1,
         "RGB": [0, 163, 0],
         "uniques": ["Doesn't generate naturally"]
