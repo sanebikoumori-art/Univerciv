@@ -1,0 +1,29 @@
+[
+
+	{
+		"name": "Heal Instantly",
+		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"innerColor": [195,53,43],
+		"outerColor": [253,236,234],
+        "row": 0,
+        "column": 0
+    },
+    //unique
+	{
+		"name": "Vector 1",
+		"uniques": ["Ignores terrain cost"],
+    },
+    {
+		"name": "Scalar 0",
+		"uniques": ["Ignores terrain cost"],
+    },
+    {
+		"name": "Spinor 1/2",
+		"uniques": ["Ignores terrain cost"],
+    },
+    {
+		"name": "Tensor 2",
+		"uniques": ["Ignores terrain cost","Ignores Zone of Control"],
+    }
+]
