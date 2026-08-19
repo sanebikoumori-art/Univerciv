@@ -40,7 +40,7 @@
 		"movementCost": 1,
         "RGB": [0, 163, 0],
         "uniques": [
-			"Doesn't generate naturally"
+			"Occurs at temperature between [0] and [0] and humidity between [0] and [0]"
 		]
     },
 	{
