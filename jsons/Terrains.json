@@ -83,5 +83,14 @@
         "uniques": [
 			"Rare feature"
 		]
+    },
+	{
+		"name": "Sun",
+		"type": "TerrainFeature",
+		"occursOn": ["Matter Space"],
+		"gold": 3,
+		"movementCost": 1,
+        "RGB": [0, 163, 0],
+        "uniques": []
     }
 ]
