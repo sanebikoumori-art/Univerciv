@@ -1,4 +1,15 @@
 [
+	//Buildable
+	{
+		"name": "Planetary Gas Cloud",
+		"terrainsCanBeBuiltOn": ["Matter Space"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Atom",
+		"uniques": ["Turn this tile into a [Sun] tile <upon turn end> <with [5]% chances>"],
+		"shortcutKey": "F"
+	},
+	//Un
 	{
 		"name": "Ancient ruins",
 		"terrainsCanBeBuiltOn": ["Land"],
