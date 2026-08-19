@@ -11,31 +11,74 @@
 	},
 	{
 		"name":"Graviton",
-		"unitType":"Particle",
-		"movement":5,
-		"uniques":["[-2] Sight"]
+		"unitType":"Gauge Particle",
+		"movement":4,
+		"strength": 1,
+		"cost": 10,
+		"requiredTech": "The Gravity",
+		"obsoleteTech": "The Light",
+		"upgradesTo": "Photon",
+		"uniques":[
+			"Turn this tile into a [Timespace] tile <upon entering a [Coast] tile>"
+		],
+		"promotions": ["Tensor 2"]
 	},
 	{
 		"name":"Gluon",
-		"unitType":"Particle",
-		"movement":5,
+		"unitType":"Gauge Particle",
+		"movement":2,
+		"strength":8,
+		"cost": 10,
+		"requiredTech": "The Strong",
+		"obsoleteTech": "The Higgs",
+		"upgradesTo": "Photon",
+		"uniques":[
+			"Turn this tile into a [Timespace] tile <upon entering a [Coast] tile>",
+			"Turn this tile into a [Fundamental Field] tile <upon entering a [Timespace] tile>"
+		],
+		"promotions": ["Vector 1"]
+	},
+	{
+		"name":"Higgs",
+		"unitType":"Scalar Particle",
+		"movement":2,
+		"strength":12,
+		"cost": 10,
+		"requiredTech": "The Higgs",
+		//"obsoleteTech": "",
+		"uniques":[
+			"Turn this tile into a [Timespace] tile <upon entering a [Coast] tile>",
+			"Turn this tile into a [Fundamental Field] tile <upon entering a [Timespace] tile>",
+			"Turn this tile into a [Blank Space] tile <upon entering a [Timespace] tile>"
+		],
+		"promotions": ["Scalar 0"]
 	},
 	{
 		"name":"Photon",
 		"unitType":"Particle",
-		"movement":5,
+		"movement":4,
+		"strength":6,
+		"cost": 10,
+		"requiredTech": "The Light",
+		//"obsoleteTech": "",
+		"uniques":[
+			"Turn this tile into a [Timespace] tile <upon entering a [Coast] tile>",
+			"Turn this tile into a [Fundamental Field] tile <upon entering a [Timespace] tile>",
+			"Turn this tile into a [Blank Space] tile <upon entering a [Timespace] tile>"
+		],
+		"promotions": ["Vector 1"]
 	},
 	{
 		"name":"Electron",
 		"unitType":"Particle",
-		"movement":5,
-		"uniques":["[+1] Sight"]
+		"movement":2,
+		"uniques":["[+1] Sight"],
+		"promotions": ["Spinor 1/2"]
 	},
 	{
 		"name":"Hydrogen",
 		"unitType":"Matter",
 		"movement":3,
-		""
 	},
 	{
 		"name":"Helium",
