@@ -3,14 +3,14 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/FantasyHex/Tiles/Void
+TileSets/FantasyHex/Tiles/Coast
   rotate: false
   xy: 0, 36
   size: 32, 36
   orig: 32, 36
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Far Void
+TileSets/FantasyHex/Tiles/Ocean
   rotate: false
   xy: 0, 36
   size: 32, 36
