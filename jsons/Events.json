@@ -8,7 +8,7 @@
         "choices": [
 			{
 				"text": "Okay.",
-				"uniques":["Triggers a [Big Bang2] event"]
+				"uniques":["Triggers a [Big Bang2] event <hidden from users>"]
 			},
             {
 				"text": "Wrong.",
