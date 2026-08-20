@@ -2,8 +2,8 @@
 	{
         "name":"Big Bang",
 		"civilopediaText":[
-			{"text":"How space and time originated is not well understood. The fundamental topology of the universe is also a subject of debate. Here, we believe the Big Bang hypothesis.","centered":true},
-            {"extraImage":"Big Bang", "imageSize":410},
+			{"text":"How space and time originated is not well understood. The fundamental topology of the universe is also a subject of debate. Here, we believe the Big Bang hypothesis."},
+            {"extraImage":"eventImages/Big Bang", "imageSize":410},
         ],
         "choices": [
 			{
