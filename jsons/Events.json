@@ -2,7 +2,7 @@
 	{
         "name":"Big Bang",
 		"civilopediaText":[
-            {"extraImage":"eventImages/Big Bang.png", "imageSize":410},
+            {"extraImage":"Big Bang", "imageSize":410},
 			{"text":"How space and time originated is not well understood. The fundamental topology of the universe is also a subject of debate. Here, we believe the Big Bang hypothesis."},
         ],
         "choices": [
@@ -12,13 +12,14 @@
 			},
             {
 				"text": "Wrong.",
+				"uniques":["Triggers a [Big Bang2] event <hidden from users>"]
 			}
         ]
     },
     {
         "name":"Big Bang2",
 		"civilopediaText":[
-            //{"extraImage":"eventImages/Big Bang.png", "imageSize":410},
+            //{"extraImage":"Big Bang", "imageSize":410},
 			{"text":"Only space and time exist here. It is a state of perfect symmetry, where nothing has yet distinguished itself from anything else. It may appear as though there is nothing, yet time endures, and energy remains"},
         ],
         "choices": [
