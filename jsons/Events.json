@@ -2,24 +2,24 @@
 	{
         "name":"Big Bang",
 		"civilopediaText":[
-			{"text":"How space and time originated is not well understood. The fundamental topology of the universe is also a subject of debate. Here, we believe the Big Bang hypothesis."},
             {"extraImage":"eventImages/Big Bang", "imageSize":410},
+			{"text":"How space and time originated is not well understood. The fundamental topology of the universe is also a subject of debate. Here, we believe the Big Bang hypothesis."},
         ],
         "choices": [
 			{
-				"text": "Okay."
+				"text": "Okay.",
+				"uniques":["Triggers a [Big Bang2] event"]
 			},
             {
 				"text": "Wrong.",
-                "uniques":["Triggers a [Big Bang2] event"]
 			}
         ]
     },
     {
         "name":"Big Bang2",
 		"civilopediaText":[
-            {"text":"Only space and time exist here. It is a state of perfect symmetry, where nothing has yet distinguished itself from anything else. It may appear as though there is nothing, yet time endures, and energy remains"},
             //{"extraImage":"eventImages/Big Bang", "imageSize":410},
+			{"text":"Only space and time exist here. It is a state of perfect symmetry, where nothing has yet distinguished itself from anything else. It may appear as though there is nothing, yet time endures, and energy remains"},
         ],
         "choices": [
 			{
