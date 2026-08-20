@@ -8,7 +8,7 @@
 		"culture": 1,
 		"cityStrength": 2.5,
 		"cost": 0,
-		"uniques": ["Indicates the capital city"]
+		"uniques": ["Indicates the capital city","Triggers a [Big Bang] event"]
 	},
     //Planck
     {
