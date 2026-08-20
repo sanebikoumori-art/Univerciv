@@ -18,8 +18,8 @@
     {
         "name":"Big Bang2",
 		"civilopediaText":[
-            {"text":"Only space and time exist here. It is a state of perfect symmetry, where nothing has yet distinguished itself from anything else. It may appear as though there is nothing, yet time endures, and energy remains.","centered":true},
-            {"extraImage":"Big Bang", "imageSize":410},
+            {"text":"Only space and time exist here. It is a state of perfect symmetry, where nothing has yet distinguished itself from anything else. It may appear as though there is nothing, yet time endures, and energy remains"},
+            //{"extraImage":"eventImages/Big Bang", "imageSize":410},
         ],
         "choices": [
 			{
